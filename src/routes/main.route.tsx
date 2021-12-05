@@ -18,6 +18,7 @@ const MainRoute = (): JSX.Element => {
         <Tab.Navigator
             initialRouteName="home"
             screenOptions={{
+                headerShown: false,
                 tabBarActiveTintColor: '#FFF',
                 tabBarInactiveTintColor: 'rgba(255, 255, 255, 0.3)',
                 tabBarActiveBackgroundColor: '#121212',
